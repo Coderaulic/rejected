@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/nav.css';
 
-// Note: Added /rejected/ as github pages and single page app don't mix well,
-// not using hashrouter either.
 const NavBar = () => {
 	return (
 		<div className='sticky'>
