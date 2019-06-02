@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/rejected/static/css/main.a7356329.chunk.css",
+    "main.js": "/rejected/static/js/main.d8c07254.chunk.js",
+    "main.js.map": "/rejected/static/js/main.d8c07254.chunk.js.map",
+    "runtime~main.js": "/rejected/static/js/runtime~main.97a47c26.js",
+    "runtime~main.js.map": "/rejected/static/js/runtime~main.97a47c26.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/rejected/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.eb10b3d1.chunk.js": "/rejected/static/js/2.eb10b3d1.chunk.js",
+    "static/js/2.eb10b3d1.chunk.js.map": "/rejected/static/js/2.eb10b3d1.chunk.js.map",
+    "index.html": "/rejected/index.html",
+    "precache-manifest.f55580ea384bbad55bba5a634e2dfa1f.js": "/rejected/precache-manifest.f55580ea384bbad55bba5a634e2dfa1f.js",
+    "service-worker.js": "/rejected/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/rejected/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.a7356329.chunk.css.map": "/rejected/static/css/main.a7356329.chunk.css.map",
+    "static/media/being-ghosted.jpg": "/rejected/static/media/being-ghosted.7e3779cd.jpg",
+    "static/media/app.css": "/rejected/static/media/candidate.1d72fc35.png",
+    "static/media/ghosted.jpg": "/rejected/static/media/ghosted.e5a481b3.jpg",
+    "static/media/jab.mp3": "/rejected/static/media/jab.dfc7e34e.mp3",
+    "static/media/noMessages.jpg": "/rejected/static/media/noMessages.5a2a1625.jpg",
+    "static/media/noResponse.png": "/rejected/static/media/noResponse.f10ee1d1.png",
+    "static/media/post-office-stamp.mp3": "/rejected/static/media/post-office-stamp.4f516899.mp3",
+    "static/media/rejected.png": "/rejected/static/media/rejected.91c5f52a.png",
+    "static/media/rubber-stamp.mp3": "/rejected/static/media/rubber-stamp.a21bbd4a.mp3",
+    "static/media/splat.mp3": "/rejected/static/media/splat.739089c6.mp3",
+    "static/media/stamp.png": "/rejected/static/media/stamp.e3e80124.png",
+    "static/media/thump.mp3": "/rejected/static/media/thump.73ea977e.mp3",
+    "static/media/whack.mp3": "/rejected/static/media/whack.07500d54.mp3"
+  }
+}
