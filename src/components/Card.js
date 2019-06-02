@@ -31,7 +31,7 @@ class Card extends Component {
 		return (
 			<div id='card' className={ style } onClick={ this.handleOpen }>
 				<OverlayTrigger delayShow={ 300 } placement='bottom' overlay={ toolTip }>
-					<img className='card_img' src={ logo } alt='no logo found.' />
+					<img className='card_img' src={ process.env.PUBLIC_URL + logo } alt='no logo found.' />
 				</OverlayTrigger>
 				{ detailsComponent }
 			</div>

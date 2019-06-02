@@ -2544,7 +2544,7 @@ export const companies = [
 	{
 		id: 54,
 		name: 'Square',
-		logo: '/images/Square.png',
+		logo: '/images/square.png',
 		data: {
 			headings: [
 				'Thank you for applying to Square!',
@@ -2993,7 +2993,7 @@ export const companies = [
 	{
 		id: 65,
 		name: 'Xevo',
-		logo: '/images/Xevo.png',
+		logo: '/images/xevo.png',
 		data: {
 			headings: [
 				'Thank you for applying to Xevo',
