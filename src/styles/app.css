@@ -1,0 +1,114 @@
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background: linear-gradient(to left, rgb(0, 255, 128) 0%, rgb(128, 0, 255) 100%);
+}
+
+.modal_header {
+	color: white;
+	border-bottom: 1px solid black;
+	background: linear-gradient(to left, rgb(0, 255, 128) 0%, rgb(128, 0, 255) 100%);
+}
+
+.modal_body {
+	font-size: 18px;
+	padding-top: 100px;
+}
+
+/* overwrite bootstrap's settings */
+.modal-body { background-color: lightcyan; }
+.modal_footer {
+	text-align: center;
+	border-top: 1px solid black;
+	background: linear-gradient(to right, rgb(0, 255, 128) 0%, rgb(128, 0, 255) 100%);
+}
+
+.modal_img { margin-top: 50px; }
+
+.scroll {
+	overflow-y: auto;
+	height: 100vh;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	padding: 2em;
+}
+
+#card {
+	width: 250px;
+	height: 250px;
+	cursor: pointer;
+}
+
+.card_img {
+	width: 225px;
+	height: 165px;
+	padding-top: 50px;
+}
+
+p { color: black; }
+
+.rejected {
+	margin-top: 45px;
+	text-align: center;
+}
+
+.search_bar { width: 250px; }
+
+.not_found {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.thoughts {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+
+.email {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: medium;
+}
+
+#stampContainer .module {
+	width: 500px;
+}
+
+#stampContainer .module#module-01 {
+	position: relative;
+}
+
+#stampContainer .module#module-01 .redInk {
+	width: 550px;
+	height: 500px;
+	background-image: url('../img/candidate.png');
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#stampContainer .module#module-01 .redInk img#rejection {
+	margin-top: 100px;
+	opacity: 0;
+}
+
+#stampContainer .module#module-01 .stamp {
+	height: 887px;
+	width: 934px;
+	top: -69px;
+	left: 214px;
+	position: absolute;
+	opacity: 0;
+	z-index: 25;
+}
+
+.ghosted {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
