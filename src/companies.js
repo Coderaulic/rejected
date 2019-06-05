@@ -1756,7 +1756,7 @@ export const companies = [
       details: [
         [
           'Hi Applicant,',
-          'I hope this message finds you well and open to new opportunities! My name is Recruiter and I am an Engineering Recruiter at Microsoft. I’m reaching out because the Microsoft Platform team is seeking candidates that possess engineering excellence and high potential for an upcoming Hiring Event. This is an invitation only interview day and pre-screening is required. Levels vary from SDE -Sr. SDE and the event takes place on [Date] in Redmond, Washington (Travel and Accommodations included with invitation).',
+          'I hope this message finds you well and open to new opportunities! My name is [Recruiter] and I am an Engineering Recruiter at Microsoft. I’m reaching out because the Microsoft Platform team is seeking candidates that possess engineering excellence and high potential for an upcoming Hiring Event. This is an invitation only interview day and pre-screening is required. Levels vary from SDE -Sr. SDE and the event takes place on [Date] in Redmond, Washington (Travel and Accommodations included with invitation).',
           'If you are interested in being considered, please apply using the link below: [link]',
           'NOTE: When you apply, you will be asked how you heard about the opportunity, please list my name (Recruiter) so that I may review your resume.',
           'After reviewing your resume, and if there is a fit, you and I will set up a time for a brief phone conversation to discuss your background and next steps. Please note that all positions do require relocation to Redmond, WA.',
@@ -2505,7 +2505,7 @@ export const companies = [
           'I\'ve only heard nothing but great things about Slalom from my friend so...'
         ]
       ],
-      type: ['E', 'E', 'E', 'T']
+      type: ['E', 'E', 'E', 'T', 'G']
     }
   },
   {
