@@ -1,73 +1,73 @@
 .home {
-	min-height: 100%;
-	position: relative;
-	padding-top: 50px;
-	padding-bottom: 60px;
+  min-height: 100%;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
 }
 
 .about {
-	padding-top: 60px;
-	border-top: 1px solid black;
-	margin-left: auto;
-	margin-right:auto;
-	color: white;
+  padding-top: 60px;
+  border-top: 1px solid black;
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
 }
 
 .title {
-	color: white;
-	font-size: 26px;
+  color: white;
+  font-size: 26px;
 }
 
 .lead > p {
-	color: white;
-	font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 
 h1 {
-	color: white;
-	font-size: 3.5rem;
+  color: white;
+  font-size: 3.5rem;
 }
 
 h2 {
-	color: cyan;
+  color: cyan;
 }
 
 a {
-	color: gold;
+  color: gold;
 }
 
 #highlight {
-	color: greenyellow;
+  color: greenyellow;
 }
 
 .panel-default .panel-heading {
-	background: linear-gradient(to left, rgb(0, 255, 128) 0%, rgb(128, 0, 255) 100%);
+  background: linear-gradient(to left, rgb(0, 100, 255) 0%, rgb(75, 0, 255) 100%);
 }
 
 .panel-body {
-	background: linear-gradient(to left, rgb(0, 255, 128) 0%, rgb(128, 0, 255) 100%);
+  background: linear-gradient(to left, rgb(0, 100, 255) 0%, rgb(75, 0, 255) 100%);
 }
 
 .panel-title {
-	color: white;
+  color: white;
 }
 
 div.panel-title a:hover {
-	color: greenyellow;
+  color: greenyellow;
 }
 
 div.panel-title [aria-expanded="true"] > h3 {
-	color: cyan;
+  color: cyan;
 }
 
 a, a:hover, a:focus {
-	text-decoration: none;
+  text-decoration: none;
 }

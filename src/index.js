@@ -11,10 +11,10 @@ const rootReducer = combineReducers({ searchCompanies, updateActiveCardID });
 const store = createStore(rootReducer);
 
 ReactDOM.render(
-	<BrowserRouter>
-		<Provider store={ store }>
-			<App />
-		</Provider>
-	</BrowserRouter>,
-	document.getElementById('root')
+  <BrowserRouter>
+    <Provider store={ store }>
+      <App />
+    </Provider>
+  </BrowserRouter>,
+  document.getElementById('root')
 );
