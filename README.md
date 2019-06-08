@@ -1,7 +1,7 @@
 
 App created that chronicles some of my job search experience as a Software Engineer for fun.
 
-Explore it <a href="https://coderaulic.github.io/rejected/" target="_blank">here.</a>
+Explore it <a href="https://coderaulic.github.io/rejected/" target="_.blank">here.</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
