@@ -5,7 +5,7 @@
   "homepage": "https://coderaulic.github.io/rejected/",
   "dependencies": {
     "jquery": "^3.4.1",
-    "querystringify": "^2.0.0",
+    "querystringify": ">=2.1.1",
     "react": "^16.8.6",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.8.6",
