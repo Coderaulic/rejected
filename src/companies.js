@@ -2658,7 +2658,7 @@ export const companies = [
           'But in all fairness, they did say "We work hard to get back to qualified applicants, IF you are a great fit..."😂',
         ]
       ],
-      type: ['E', 'T']
+      type: ['E', 'T', 'G']
     }
   },
   {

@@ -56,18 +56,18 @@ class Tips extends Component {
         <div className='lead'>
           <span>Great sites for practicing the basics problems online:</span>
           <ul>
-            <li><a href='https://practiceit.cs.washington.edu/' target='_.blank'>Practice-It:</a> Practice solving Java problems.</li>
-            <li><a href='https://sqlzoo.net/' target='_.blank'>SQL Zoo:</a> Practice solving SQL basics problems.</li>
-            <li><a href='https://codingbat.com/java' target='_.blank'>CodingBat:</a> Practice solving Java and Python problems.</li>
-            <li><a href='https://www.freecodecamp.org/' target='_.blank'>FreeCodeCamp:</a> Practice basic web development skills.</li>
-            <li><a href='https://www.codestepbystep.com/' target='_.blank'>CodeStepByStep:</a> Practice solving C++, Java, Python, and more!</li>
-            <li><a href='https://leetcode.com/' target='_.blank'>LeetCode:</a> When your done with basics, highly recommend this site.</li>
+            <li><a target='_.blank' href='https://practiceit.cs.washington.edu/'>Practice-It:</a> Practice solving Java problems.</li>
+            <li><a target='_.blank' href='https://sqlzoo.net/'>SQL Zoo:</a> Practice solving SQL basics problems.</li>
+            <li><a target='_.blank' href='https://codingbat.com/java'>CodingBat:</a> Practice solving Java and Python problems.</li>
+            <li><a target='_.blank' href='https://www.freecodecamp.org/'>FreeCodeCamp:</a> Practice basic web development skills.</li>
+            <li><a target='_.blank' href='https://www.codestepbystep.com/'>CodeStepByStep:</a> Practice solving C++, Java, Python, and more!</li>
+            <li><a target='_.blank' href='https://leetcode.com/'>LeetCode:</a> When your done with basics, highly recommend this site.</li>
           </ul>
           <span>Preparing for the other stuff:</span>
           <ul>
-            <li><a href='https://www.mockquestions.com/' target='_.blank'>Mock Interview:</a> Tips on preparing for interviews.</li>
-            <li><a href='https://www.mockquestions.com/interview/Behavioral/' target='_.blank'>Mock Behavioral:</a> Practice behavioral interview questions.</li>
-            <li><a href='https://www.pramp.com/#/' target='_.blank'>Pramp:</a> Get over your fears, practice with your peers, a real human.</li>
+            <li><a target='_.blank' href='https://www.mockquestions.com/'>Mock Interview:</a> Tips on preparing for interviews.</li>
+            <li><a target='_.blank' href='https://www.mockquestions.com/interview/Behavioral/'>Mock Behavioral:</a> Practice behavioral interview questions.</li>
+            <li><a target='_.blank' href='https://www.pramp.com/#/'>Pramp:</a> Get over your fears, practice with your peers, a real human.</li>
           </ul>
         </div>
       </div>
@@ -96,7 +96,7 @@ class Tips extends Component {
               id="tips-accordion"
               onSelect={ this.handleSelect }
               activeKey={ this.state.activeKey }
-            >
+           >
               <Panel eventKey={ 1 }>
                 <Panel.Heading>
                   <Panel.Title toggle>{ <h3>Applicants vs Candidates</h3> }</Panel.Title>

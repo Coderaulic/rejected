@@ -22,14 +22,14 @@ class Card extends Component {
 
     // mark cards that have been viewed by changing frame color
     const hasBeenSelected = (this.state.viewed) ? 'red' : 'blue';
-    const style =`tc pa3 ba b--${ hasBeenSelected } dib br3 pa3 ma2 grow bw2 shadow-5`;
+    const style =`card tc pa3 ba b--${ hasBeenSelected } dib br3 pa3 ma2 grow bw2 shadow-5`;
 
     // only construct modal when selected
     const detailsComponent = (id === activeCardID) ? <ApplicationDetails { ...this.props } /> : null;
     const toolTip = <Tooltip id={ id }><strong>{ name }</strong></Tooltip>;
 
     return (
-      <div id='card' className={ style } onClick={ this.handleOpen }>
+      <div className={ style } onClick={ this.handleOpen }>
         <OverlayTrigger delayShow={ 300 } placement='bottom' overlay={ toolTip }>
           <img className='card_img' src={ process.env.PUBLIC_URL + logo } alt='no logo found.' />
         </OverlayTrigger>

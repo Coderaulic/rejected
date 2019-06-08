@@ -8,7 +8,7 @@ const SearchBox = ({ searchChange }) => {
         type='search'
         onChange={ searchChange }
         placeholder='Search by company name'
-        className='search_bar pa3 ba b--black bg-lightest-green'
+        className='search_bar pa3 ba b--black'
       />
     </div>
   );

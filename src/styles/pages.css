@@ -1,29 +1,24 @@
 .home {
   min-height: 100%;
-  position: relative;
   padding-top: 50px;
+  position: relative;
   padding-bottom: 60px;
 }
 
 .container {
-  padding-right: 15px;
+  color: white;
+  margin-left: auto;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
-  color: white;
+  padding-right: 15px;
 }
 
 .about {
+  color: white;
   padding-top: 60px;
-  border-top: 1px solid black;
   margin-left: auto;
   margin-right:auto;
-  color: white;
-}
-
-.title {
-  color: white;
-  font-size: 26px;
+  border-top: 1px solid black;
 }
 
 .lead > p {
@@ -37,11 +32,21 @@ h1 {
 }
 
 h2 {
-  color: cyan;
+  color: aqua;
 }
 
 a {
-  color: gold;
+  color: yellow;
+}
+
+li > a:hover, a:focus {
+  color: aqua;
+  text-decoration-line: underline;
+}
+
+p > a:hover, a:focus {
+  color: aqua;
+  text-decoration-line: underline;
 }
 
 #highlight {
@@ -61,11 +66,11 @@ a {
 }
 
 div.panel-title a:hover {
-  color: greenyellow;
+  color: green;
 }
 
 div.panel-title [aria-expanded="true"] > h3 {
-  color: cyan;
+  color: aqua;
 }
 
 a, a:hover, a:focus {

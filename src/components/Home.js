@@ -8,7 +8,7 @@ const Home = () => {
       <header>
         <div className='container text-center'>
           <img src={ imgRejected } style={{ width: '600px', height: '350px' }} alt='no img' />
-          <p className='title'>Yet Another Job Search Story</p>
+          <h1 className='title'>Yet Another Job Search Story</h1>
         </div>
       </header>
       <div className='about'>
