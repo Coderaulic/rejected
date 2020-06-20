@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://coderaulic.github.io/rejected/",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.8.6",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.8.6",
